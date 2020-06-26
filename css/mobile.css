@@ -29,7 +29,15 @@
     .slider_text_wrapper{
     position: absolute; width : 94%; left: 3%; 
     }
+    
+    .page_section{ margin: 1% 0.5%; padding: 1%;}
+    
     .pix_display_bar{height: 21.5vh;}
+    
+    .pix_text_wrapper_square{
+    width: 250px; margin: 5% 2.5%
+    }
+
    .customer_service{display: block;} .pix_container_square{width: 220px; height: 220px;} #pix_customer_service{ margin: 2.5% auto;}
     #text_customer_service{
         text-align: center;

@@ -1,4 +1,3 @@
-/*39ac73*/
 @viewport {
     width: device-width ;
     zoom: 1.0;
@@ -133,7 +132,7 @@ td:nth-child(2){ padding-left: 5%;}
 
 .box_flex{display:flex; flex-wrap:wrap; justify-content: center;}
 .pix_text_wrapper_square{
-    width: 290px; margin: 3% 5%
+    width: 290px; margin: 3.5% 5%
 }
 
 
