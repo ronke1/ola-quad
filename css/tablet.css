@@ -1,0 +1,16 @@
+@media screen and (max-width:968px){
+    .slider_text_wrapper{
+    position: absolute; width : 80%; left: 10%;    
+    }
+    .highlight_text ul{padding-left: 3%; grid-template-columns: 1fr 1fr;}
+    .bamboo_facts_wrapper{
+        padding : 2%;
+        display: block;
+    }
+    .bamboo_facts_container{
+        display : grid; grid-template-columns: 32% auto; 
+        margin-bottom: 5.6%;
+    }
+
+}
+

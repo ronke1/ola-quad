@@ -1,0 +1,215 @@
+/*39ac73*/
+@viewport {
+    width: device-width ;
+    zoom: 1.0;
+}
+*{
+    box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+body{ max-width: 100%;}
+header{}
+img{max-width:100%;}
+p{padding: 2%;}
+#logo_hamburger_wrapper{padding: 4% 5.5% 1.5%; display: flex; justify-content: space-between; align-items: flex-end;}
+#logo{width: 10vh;}
+#nav_wrapper{
+    display: flex; justify-content: center; align-items: center; align-content: center; padding: 0.5% 2% 1.5%; color: #fff; background-color: #39ac73;
+}
+.nav_item{width: 14%; text-align: center;}
+.nav_item a{padding: 1% 10%; text-decoration: none; color:#fff;}
+.nav_item a:hover{color:#003399;}
+#nav_arrow{margin-left: 1%;}
+.sub_nav_about{display:none;}
+.nav_item_parent:hover .sub_nav_about{
+    display:block;
+    margin-top: 2.5%; padding: 1% 2.5%; z-index: 9999;  
+}
+.sub_nav_about a{padding: 3.5% 5%;}
+.nav_item_parent:hover .sub_nav_about > a{ z-index:9999;
+}
+
+
+
+#landing_slider{
+    position:relative; width: 78%; height: 75vh; left: 6%;  
+}
+.slider_segment{
+    width: 100%; height: 100%;
+    background : center center no-repeat; background-size: cover;
+}
+#slider1{ background-image: url("../img/modern_estate.jpeg");}
+#slider2{ background-image: url("../img/bamboo.jpg");}
+#slider3{ background-image: url("../img/sustainable_bamboo.jpg");}
+
+.slider_text_wrapper{
+    position: absolute; width : 70%; left: 15%; bottom: 15%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1%;
+    animation: movingbox 5s infinite;
+}
+@keyframes movingbox{
+    50% {box-shadow: 5px 2px 5px 3px rgb(83, 83, 83);}
+}
+.slider_text{ padding-top: 1%;}
+
+.landing_page_section{
+    padding : 2% 20%;
+}
+.landing_page_section > div{
+    padding: 1% 2% 3%;
+    border-bottom: 1px solid rgba(45, 119, 30, 0.4);
+}
+.landing_page_section > div > p{
+    font-size: 1.4em;
+}
+#landing_image1{ background-image: url("../img/sustainable.jpg");}
+#landing_image2{ background-image: url("../img/beautiful.jpg");}
+#landing_image3{ background-image: url("../img/modern_estate.jpeg");}
+#landing_image4{ background-image: url("../img/innovation.jpeg");}
+.landing_image_show{
+    width : 175px; height: 175px; border-radius: 50%;
+    margin-bottom : 2.5%; margin-top : 2.5%;
+    background : center center no-repeat; background-size: cover;
+    border: 5px solid rgb(83, 83, 83);
+    box-shadow: 5px 5px 10px rgb(83, 83, 83);
+}
+#values_wrapper{ 
+    padding : 7.5% 15%; margin: 2% 0;
+    background: rgb(43,94,155);
+    background: linear-gradient(105deg, rgba(43,94,155,1) 40%, rgba(64,164,87,0.9) 80%, rgba(136,191,235,1) 100%);
+}
+#values_wrapper p{ padding : 4% 5%;}
+.ruler{position: relative; width:26%; left: 37%; padding:0.2%; margin-top: 1%; background-color: #fff;}
+
+
+
+.align_left{text-align: left; }
+.align_center{text-align: center;}
+.white_text{ color:#fff; }
+.green_text{ color: rgb(38, 133, 38);}
+.spaced_text{ letter-spacing: 1vw;}
+.bg_green{ background-color: #39ac73;}
+.font_large{ font-size: 1.5em;}
+.big_icon{font-size: 1.05em; padding: 1%;}
+
+
+.page_section{ margin: 2%; padding: 1% 5%;}
+
+.page_section p{ margin: 1%; padding: 1%;}
+.section_head{ padding: 2% 0; color: #003399;}
+table{position: relative; width: 80%; left: 10%;}
+td:nth-child(2){ padding-left: 5%;}
+
+.pix_container_square{width: 180px; height: 180px; background: center center no-repeat; background-size: cover;}
+.pix_container_full{width:100%; height:220px; background: center center no-repeat; background-size: cover;}
+.customer_service{display: flex; justify-content: space-around; align-items: center; margin: 2.5% 2% 3.5%;
+}
+#pix_customer_service{background-image: url(../img/customer_service.jpg);}
+#pix_modular_units{background-image: url(../img/modular-kitchen.jpg);}
+#pix_self_build{background-image: url(../img/self_build.jpg);}
+#pix_tiny_homes{background-image: url(../img/tiny_home.jpg);}
+#pix_flats{background-image: url(../img/flats.jpg);}
+#pix_houses{background-image: url(../img/house.jpg);}
+#pix_why_tiny{background-image: url(../img/why_tiny.jpg);}
+#pix_tiny_plan{background-image: url(../img/tiny_plan.jpg);}
+#pix_construction_management{background-image: url(../img/construction_management.jpg);}
+#pix_construction_dept{background-image: url(../img/construction_dept.jpg);}
+#pix_commercial_dept{background-image: url(../img/commercial_dept.jpg);}
+#pix_manufacturing_dept{background-image: url(../img/manufacturing_dept.jpg);}
+#pix_construction_jobs{background-image: url(../img/construction_jobs.jpg);}
+#pix_commercial_jobs{background-image: url(../img/commercial_jobs.jpg);}
+#pix_manufacturing_jobs{background-image: url(../img/manufacturing_jobs.jpg);}
+
+.rounded{border-radius: 20%;}
+
+.pix_display_bar{height: 45vh; background: center center no-repeat; background-size: cover;}
+#display_bar_tiny{background-image: url(../img/tiny_home_cream.jpg);}
+
+#text_customer_service{
+    padding: 5%; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.box_flex{display:flex; flex-wrap:wrap; justify-content: center;}
+.pix_text_wrapper_square{
+    width: 290px; margin: 3% 5%
+}
+
+
+.team{ width: 290px; margin: 2.5%; text-align: center;}
+.pix_team{width:160px; height: 160px; background: center center no-repeat; background-size: cover; border-radius: 50%; border: 4px solid #000; margin: auto;}
+#pix_barr{background-image: url(../img/barr.jpg);}
+#pix_opeyemi{background-image: url(../img/opeyemi.jpg); }
+#pix_bisi{background-image: url(../img/bisi.jpg);}
+.designation{color:#003399;}
+.fill_picture{width:100%;}
+
+.green_href{color:#39ac73; text-decoration: none;}
+.page_black{background-color: #000; color: #fff; margin: 1.5% 0 1.5%; padding: 5%; text-align: center;}
+.page_green{background-color: #39ac73; color: #fff; margin: 1.5% 0 1.5%; padding: 5%;}
+.video_container{
+    position: relative; width:86%; left: 7%; 
+}
+video{max-width:100%;}
+
+.highlight_text{}
+.highlight_text ul{padding-left: 4%; display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.highlight_text ul li{margin: 1%;}
+ol{padding-left: 7.5%;}
+ol li{padding: 2% 1%;}
+
+.service_container{display: grid; grid-template-columns: 23.5% 76.5%; margin-bottom: 2%; min-height:140px;}
+.pix_container_side{
+    padding: 5%;
+    background: center center no-repeat; background-size: cover;
+}
+.service_text{ padding: 4% 2%;
+    border-style: solid; border-width: 1.5px 1.5px 1.5px 3.5px;}
+.service_heading, .service_heading2{ position: relative; left: -6.5%; color: #fff; background-color: #39ac73; padding:2%;
+    border: 1.25px solid #fff;}
+.service_heading2{ background-color: #000; }
+#side_project_management{background-image: url(../img/project_management.jpg);}
+#side_construction_management{background-image: url(../img/construction_management.jpg);}
+#side_consulting{background-image: url(../img/consulting.jpg);}
+#side_reits{background-image: url(../img/reits.jpg);}
+#side_land{background-image: url(../img/land.jpg);}
+
+
+form{
+    padding:2.5% 10%;
+}
+form input{ width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 2%; margin: 2%;
+    
+}
+.form-group_row{display:flex;}
+form input:focus{background: #39ac73; color: #fff;}
+.div_submit{margin: 1% auto; padding: 2% 1%; width: 50%; text-align: center; color:#fff; background-color: #003399; border-radius: 10px;}
+.div_submit a{padding: 1% 19.5%; cursor: pointer; color: #fff; text-decoration: none;}
+.before_footer{
+    padding : 2% 5%;
+}
+.bamboo_facts_wrapper{
+    padding : 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.bamboo_facts_container{
+    padding: 2.5%;
+    text-align: left;
+}
+.bamboo_facts_info{
+    padding: 2% 0.5%;
+}
+.bamboo_facts_info ul{
+    padding: 1.5% 5%;
+}
+footer{
+    margin-top: 2%; padding: 3.5%;
+    color: #fff; background: url(../img/footer.jpg) center bottom no-repeat; background-size: cover;
+    display: flex; flex-direction: row; justify-content: space-around;
+}
+footer a{color: #fff; text-decoration: none; padding-top: 2%; padding-bottom: 2%;}
