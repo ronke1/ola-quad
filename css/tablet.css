@@ -2,6 +2,9 @@
     .slider_text_wrapper{
     position: absolute; width : 80%; left: 10%;    
     }
+    .landing_page_section > div > p{
+        font-size: 1.1em;
+    }
     .highlight_text ul{padding-left: 3%; grid-template-columns: 1fr 1fr;}
     .bamboo_facts_wrapper{
         padding : 2%;

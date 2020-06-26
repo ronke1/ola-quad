@@ -26,11 +26,16 @@
     #landing_slider{
         width: 100%; height: 75vh; left: 0%;  
     }
+    .landing_page_section > div > p{
+        font-size: 0.9em;
+    }
     .slider_text_wrapper{
     position: absolute; width : 94%; left: 3%; 
     }
-    
-    .page_section{ margin: 1% 0.5%; padding: 1%;}
+    .landing_page_section{
+    padding : 2% 3%;
+    }
+    .page_section{ margin: 1%; padding: 1%;}
     
     .pix_display_bar{height: 21.5vh;}
     
